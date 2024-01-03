@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6{
     gap: 50px;
 }
 .web-item .inner-item{
-    border: 1px solid rgb(253, 251, 251);
+    border: 1px solid #ffff;
     padding: 25px;
     transition: all linear 0.3s;
 }
@@ -356,7 +356,6 @@ h1, h2, h3, h4, h5, h6{
 /* --- our work part start --- */
 #work{
     background: #110F0F;
-    padding: 40px 0 20px;
 }
 .work-grid{
     display: grid;
@@ -366,6 +365,7 @@ h1, h2, h3, h4, h5, h6{
 .work-grid .common-heading{
     grid-column: 1 / 5;
     max-width: 100%;
+    padding-top: 30px;
 }
 .work-grid .common-heading h2{
 	width: 75%;
